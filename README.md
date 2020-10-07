@@ -13,8 +13,11 @@ The code currently does not support the following:
 * Interference
 
 Code Preview:
+
 The user should mainly use files "Ex1.m" and "Main.m".
+
 In Ex1.m : You define the optical components
+
 In Main.m: You define the ray source and the computation parameters
 
 
