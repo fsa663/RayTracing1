@@ -7,10 +7,10 @@ Main Features:
 * Supports thick lenses and simulates spherical aberrations 
 * Can simulate off-axis components
 
-Main Drawbacks:
-* Does not consider polarization
-* Does not consider chromatic aberrations
-
+The code currently does not support the following:
+* polarization
+* chromatic aberrations
+* Interference
 
 Code Preview:
 The user should mainly use files "Ex1.m" and "Main.m".
