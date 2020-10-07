@@ -40,18 +40,11 @@ E(i).type='sphericalSurface';
 E(i).center=[k0 0 0]; E(i).axis=[-1 0 0];
 E(i).aperture=100;E(i).radius=120;
 E(i).indexout=1;E(i).indexcenter=1.5;
-
 i=8;
 E(i).type='sphericalSurface';
 E(i).center=[k0 0 0]; E(i).axis=[1 0 0];
 E(i).aperture=100;E(i).radius=120;
 E(i).indexout=1;E(i).indexcenter=1.5;
-%{
-psrf1=(E(7).indexcenter-E(7).indexout)/E(7).radius;
-psrf2=(E(8).indexcenter-E(8).indexout)/E(8).radius;
-Plens1=psrf1+psrf2-psrf1*psrf2*(E(8).center(1)-E(7).center(1))/E(8).indexout;
-flens1=1/Plens1;
-%}
 i=9;
 E(i).type='circularAperture';
 E(i).center=[k0 0 0]; E(i).axis=[-1 0 0];
@@ -70,12 +63,6 @@ E(i).type='sphericalSurface';
 E(i).center=[dd+k0 0 0]; E(i).axis=[1 0 0];
 E(i).aperture=20;E(i).radius=25;
 E(i).indexout=1;E(i).indexcenter=1.5;
-%{
-psrf1=(E(10).indexcenter-E(10).indexout)/E(10).radius;
-psrf2=(E(11).indexcenter-E(11).indexout)/E(11).radius;
-Plens2=psrf1+psrf2-psrf1*psrf2*(E(11).center(1)-E(10).center(1))/E(11).indexout;
-flens2=1/Plens2
-%}
 i=12;
 E(i).type='circularAperture';
 E(i).center=[dd+k0 0 0]; E(i).axis=[-1 0 0];
