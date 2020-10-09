@@ -7,7 +7,7 @@ MATLAB Ray Tracing Code:
 * Supports thick lenses and simulates spherical aberrations 
 * Can simulate off-axis components
 <br>
-3D Ray Tracing:
+
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/49459541/95596533-2dfdb900-0a56-11eb-8c9b-fac2d2208e8e.PNG" width="350" title="3D Ray Tracing">
