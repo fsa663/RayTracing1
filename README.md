@@ -2,7 +2,7 @@
 
 MATLAB Ray Tracing Code:
 
-Main Features:
+<b>Main Features:</b>
 * 3D ray tracing and display
 * Supports thick lenses and simulates spherical aberrations 
 * Can simulate off-axis components
@@ -11,10 +11,8 @@ The code currently does not support the following:
 * polarization
 * chromatic aberrations
 * Interference
-
-Code Preview:
-
-The user should mainly use files "Ex1.m" and "Main.m".
+<br>
+<b>Code Preview:</b>
 
 In Ex1.m : You define the optical components
 
